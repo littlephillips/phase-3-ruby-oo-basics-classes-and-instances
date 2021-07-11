@@ -56,6 +56,9 @@ With this code alone, we can now make new dogs!
 
 ## Creating Instances of Classes
 
+Open up IRB, or create a new Ruby file to code along, and enter the following
+code:
+
 ```ruby
 class Dog
 end
@@ -68,8 +71,8 @@ In the code sample above, once we've defined our `Dog` class with the `class`
 keyword, we immediately can bring to life new individual dogs, the variable
 `fido` which points to a new instance of a dog.
 
-On the `Dog` class, we call the `.new` method and that will **instantiate** a
-new dog.
+On the `Dog` class, we call the `.new` method and that will **instantiate**
+(create a new **instance** of) a new dog.
 
 **Instantiate** means bringing a new object to life, a new individual, like a
 particular dog, like Snoopy or Lassie or Rover. Each particular dog is an
@@ -138,3 +141,14 @@ snoopy == fido #=> false - these dogs are not the same.
 
 Classes are the blueprints that define the behavior and information our objects
 will contain. They let us manufacture and instantiate new instances.
+
+## Conclusion
+
+In summary: to create a new class definition, use the `class` keyword. A class
+is like a template, or a blueprint, for creating objects with similar
+characteristics.
+
+To use the class to create individual objects, use the `.new` method. This will
+**instantiate** (create a new **instance** of) an object from the class. Each
+instance created using the class by calling `.new` will be a unique object in
+memory.
