@@ -43,8 +43,8 @@ and closed with an `end`. The body of this class is between the `class` and
 `end` keywords.
 
 Class names begin with capital letters because they are stored in Ruby
-constants. If your class name contains two words, the name should be CamelCased,
-like this:
+constants. If your class name contains two words, the name should be
+PascalCased, like this:
 
 ```ruby
 class MyClass
